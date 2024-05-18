@@ -1,12 +1,12 @@
 def stats(match_score:str, player_stats:str) -> dict:
-	match_won, match_lost = map(int, match_score.split('-'))
+	team1_score, team2_score = map(int, match_score.split('-'))
 	kills, deaths, assists = map(int, player_stats.split('-'))
 
-	total_rounds = match_won + match_lost
+	total_rounds = team1_score + team2_score
 
 	kd = kills / deaths if deaths != 0 else kills
 	kr = kills / total_rounds
-	survival_rate = round(((deaths / total_rounds)*100), 3)
+	survival_rate = deaths/total_rounds
 
 	result = {
 	'kd': kd,
