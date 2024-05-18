@@ -1,0 +1,29 @@
+def calculate_stats(match_score: str, player_stats: str) -> dict:
+  
+  match_scores = match_score.split("-")
+  rounds_won = int(match_scores[0])
+  rounds_lost = int(match_scores[1])
+
+  player_stats_values = player_stats.split("-")
+  kills = int(player_stats_values[0])
+  deaths = int(player_stats_values[1])
+
+  kd = kills / deaths if deaths != 0 else kills
+
+  total_rounds = rounds_won + rounds_lost
+  kr = kills / total_rounds if total_rounds != 0 else kills
+
+  survival = rounds_won / total_rounds if total_rounds != 0 else 0
+
+  stats = {
+      "kd": kd,
+      "kr": kr,
+      "survival": survival
+  }
+
+  return stats
+
+match_score = "13-10"
+player_stats = "16-10"
+result = calculate_stats(match_score, player_stats)
+print(result)
