@@ -1,2 +1,2 @@
 with open("results.txt", "w") as file:
-file.write(str(result))
+get_stat.write(str(result))
