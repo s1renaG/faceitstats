@@ -19,3 +19,7 @@ def stats(match_score:str, player_stats:str) -> dict:
 	return result
 
 print(stats("13-10", "25-0-5"))
+
+result = stats("13-10", "25-0-5")
+with open("results.txt","w") as file:
+    file.write(str(result))
