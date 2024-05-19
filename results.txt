@@ -1,2 +1,1 @@
-with open("results.txt", "w") as file:
-get_stat.write(str(result))
+
