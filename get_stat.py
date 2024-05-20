@@ -30,7 +30,7 @@ def stats(match_score:str, player_stats:str) -> dict:
   'survival_rate':survival_rate
   }
 
-  with open("results.txt","w") as file:
+  with open("results.txt","a") as file:
     file.write(str(result))
   print(result)
   return
