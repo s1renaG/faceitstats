@@ -19,7 +19,7 @@ class RandomGenerator:
       }
     return {'kd': kd, 'kr': kr, 'assists': assists, 'survival_rate': survival_rate}
 random_gen = RandomGenerator()
-with open("results.txt", "a") as file:
+with open("results.cvs", "w") as file:
   for _ in range(4):
       w, l, k, a, d = random_gen.random_library()
       stats_result = random_gen.stats(w, l, k, a, d)
