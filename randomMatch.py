@@ -13,4 +13,4 @@ def simulate_cs2_match():
 
     return team1, team2
 team1, team2 = simulate_cs2_match()
-print(f"CS:GO Match Score: {team1} - {team2}")
+print(f"CS2 Match Score: {team1} - {team2}")
