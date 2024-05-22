@@ -5,7 +5,7 @@ def simulate_cs2_match():
     team1 = 0
     team2 = 0
 
-    while team1 < 16 and team2 < 16:
+    while team1 < 13 and team2 < 13:
         if random.random() > 0.5:
             team1 += 1
         else:
