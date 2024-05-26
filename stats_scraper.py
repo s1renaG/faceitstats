@@ -36,7 +36,7 @@ class PlayerDataScraper:
 
     def tidy_write_in(self):
         df = pd.DataFrame(self.data)
-        with open('stats.cvs', 'a') as file:
+        with open('stats.csv', 'a') as file:
             file.write(str(df))
         return
 
