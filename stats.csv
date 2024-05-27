@@ -1,29 +1,10 @@
-sub_header,value,description
-"Rating 2.0
-                        Rating 2.0The rating tells us if the player put up above or below average numbers, with 1.00 being the average
-                      ",1.02,Okay
-"DPR
-                        DPRDeaths per round
-                      ",0.65,Good
-"KAST
-                        KASTPercentage of rounds in which the player either had a kill, assist, survived or was traded
-                      ",71.9%,Okay
-"Impact
-                        ImpactMeasures the impact made from multikills, opening kills, and clutches
-                      ",0.95,Poor
-"ADR
-                        ADRAverage damage per round
-                      ",70.2,Poor
-"KPR
-                        KPRKills per round
-                      ",0.62,Poor
                                           sub_header  value description
 0  Rating 2.0\n                        Rating 2.0...   1.02        Okay
 1  DPR\n                        DPRDeaths per rou...   0.65        Good
 2  KAST\n                        KASTPercentage o...  71.9%        Okay
 3  Impact\n                        ImpactMeasures...   0.95        Poor
 4  ADR\n                        ADRAverage damage...   70.2        Poor
-5  KPR\n                        KPRKills per roun...   0.62        Poor                                          sub_header  value description
+5  KPR\n                        KPRKills per roun...   0.62        Poor                                          
 0  Rating 2.0\n                        Rating 2.0...   1.02        Okay
 1  DPR\n                        DPRDeaths per rou...   0.65        Good
 2  KAST\n                        KASTPercentage o...  71.9%        Okay
